@@ -8,7 +8,7 @@
   "name": "driftly",
   "version": "1.0.0",
   "description": "Driftly\r - where skills meet opportunity !!\r By Ayush and Apoorv\r Lets go!!!",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

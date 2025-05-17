@@ -1,7 +1,12 @@
 const express=require("express");
 const app=express();
- const mongoose=require("mongoose");
+const mongoose=require("mongoose");
 
-app.listen(3000,()=>{
-    console.log("Server is running on port 3000");
+// Add this route
+app.get("/", (req, res) => {
+    res.send("Welcome to Driftly!");
+});
+const port = 3000;
+app.listen(port,()=>{
+    console.log("Server is running on port 8080");
 });
