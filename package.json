@@ -1,8 +1,21 @@
 {
+<<<<<<< HEAD
   "name": "driftly",
   "version": "1.0.0",
   "description": "Driftly\r - where skills meet opportunity !!\r By Ayush and Apoorv\r Lets go!!!",
   "main": "index.js",
+=======
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "init": "^0.1.2",
+    "mongoose": "^8.15.0"
+  },
+  "name": "driftly",
+  "version": "1.0.0",
+  "description": "Driftly\r - where skills meet opportunity !!\r By Ayush and Apoorv\r Lets go!!!",
+  "main": "app.js",
+>>>>>>> 9c36fbfbd91140c014764ee06b6ef2b9b2eaf00f
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
